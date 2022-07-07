@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class GameFlowChanger : MonoBehaviour
+public class TestFlowChanger : MonoBehaviour
 {
     [SerializeField]
     public TestFlowManager manager;

@@ -3,11 +3,6 @@
   "displayName": "IFlowManager",
   "version": "0.0.1",
   "description": "IFlowManager",
-  "keywords": [
-    "state pattern",
-    "flow"
-  ],
-  "type": "interface",
   "samples": [
     {
       "displayName": "TestFlowManager",
