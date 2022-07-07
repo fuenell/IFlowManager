@@ -1,0 +1,20 @@
+{
+    "name": "com.normal111.iflowmanager",
+    "displayName": "IFlowManager",
+    "version": "0.0.1",
+    "description": "IFlowManager",
+    "keywords": [
+      "state pattern",
+      "flow"
+    ],
+    "type": "interface",
+    "hideInEditor": false,
+    "unity": "2020.1",
+    "samples": [
+      {
+        "displayName": "TestFlowManager",
+        "description": "TestFlowManager",
+        "path": "Samples~/TestFlowManager"
+      }
+    ]
+  }
