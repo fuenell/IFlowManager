@@ -8,6 +8,11 @@
       "displayName": "TestFlowManager",
       "description": "TestFlowManager",
       "path": "Samples~/TestFlowManager"
+    },
+    {
+      "displayName": "EcologyContent",
+      "description": "개인 생태 콘텐츠 FlowManager",
+      "path": "Samples~/EcologyContent"
     }
   ]
 }
