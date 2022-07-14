@@ -6,7 +6,7 @@
         void ChangeFlow(T type);
     }
 
-    public interface Flow
+    public interface IFlow
     {
         void Enter();
         void Exit();

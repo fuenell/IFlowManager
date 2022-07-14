@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestFlow : MonoBehaviour, Flow
+public class TestFlow : MonoBehaviour, IFlow
 {
     public GameObject obj;
 

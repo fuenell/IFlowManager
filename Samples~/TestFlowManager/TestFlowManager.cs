@@ -5,7 +5,7 @@ public enum TestType { Null, T1, T2 };
 
 public class TestFlowManager : MonoBehaviour, IFlowManager<TestType>
 {
-    private Flow currentFlow;
+    private IFlow currentFlow;
     private TestType currentFlowType;
     public TestType CurrentFlowType { get { return currentFlowType; } }
 
