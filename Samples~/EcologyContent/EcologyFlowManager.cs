@@ -5,7 +5,7 @@ public enum EcologyFlowType { Null, Dictionary, Wait, Tutorial, Game }
 
 public class EcologyFlowManager : MonoBehaviour, IFlowManager<EcologyFlowType>
 {
-    private Flow m_CurrentFlow;
+    private IFlow m_CurrentFlow;
     private EcologyFlowType m_CurrentFlowType;
     public EcologyFlowType CurrentFlowType => m_CurrentFlowType;
 
@@ -27,7 +27,7 @@ public class EcologyFlowManager : MonoBehaviour, IFlowManager<EcologyFlowType>
         m_CurrentFlow?.Enter();
     }
 
-    private Flow GetFlow(EcologyFlowType type)
+    private IFlow GetFlow(EcologyFlowType type)
     {
         switch (type)
         {

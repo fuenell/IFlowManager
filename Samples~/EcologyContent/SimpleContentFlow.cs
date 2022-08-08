@@ -1,7 +1,7 @@
 using FlowManager;
 using UnityEngine;
 
-public class SimpleContentFlow : MonoBehaviour, Flow
+public class SimpleContentFlow : MonoBehaviour, IFlow
 {
     [SerializeField] private GameObject m_Object;
 

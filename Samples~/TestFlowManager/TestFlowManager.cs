@@ -25,7 +25,7 @@ public class TestFlowManager : MonoBehaviour, IFlowManager<TestType>
         currentFlow?.Enter();
     }
 
-    Flow GetFlow(TestType type)
+    IFlow GetFlow(TestType type)
     {
         switch (type)
         {

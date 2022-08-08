@@ -1,7 +1,7 @@
 using FlowManager;
 using UnityEngine;
 
-public class AgeContentFlow : MonoBehaviour, Flow
+public class AgeContentFlow : MonoBehaviour, IFlow
 {
     [SerializeField] private Net_Data m_Data;
 
